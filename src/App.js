@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <Nav>
-        <a href="#">Home</a>
+        <a href="/">Home</a>
         <a href="#story">My Story</a>
         <a href="#tech">Technologies</a>
         <a href="#contact">Contact</a>
