@@ -18,12 +18,12 @@ const App = () => {
   return (
     <>
       <Nav>
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
         <a href="#story">My Story</a>
         <a href="#tech">Technologies</a>
         <a href="#contact">Contact</a>
       </Nav>
-      <Section1 data-aos="fade-in" data-aos-duration="2000">
+      <Section1 data-aos="fade-in" data-aos-duration="2000" id="home">
         <Container>
           <Flex>
             <div className="image-div" data-aos="fade-right" data-aos-duration="1000">
